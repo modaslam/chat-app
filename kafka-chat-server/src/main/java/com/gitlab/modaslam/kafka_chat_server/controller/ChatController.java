@@ -34,6 +34,8 @@ public class ChatController {
 			throw new RuntimeException(e);
 		}
 	}
+	
+	//WEBSOCKET APIs
 
 	@MessageMapping("/sendMessage")
 	@SendTo("/topic/group")

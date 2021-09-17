@@ -19,7 +19,7 @@ const App = () => {
   }
 
   let onMessageReceived = (msg) => {
-    console.log('New Message Received!!', msg);
+    console.log('New Message Received!!!', msg);
     setMessages(messages.concat(msg));
   }
 
